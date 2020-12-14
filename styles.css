@@ -19,6 +19,22 @@ a:hover {
   color: #ac0000;
 }
 
+p {
+  margin: 0;
+  padding: 0 0 24px;
+}
+
+.bigger {
+  font-size: 16px;
+}
+
+h2 {
+  font-size: 24px;
+  line-height: 32px;
+  margin: 0;
+  padding: 12px 0 24px;
+}
+
 .container > header {
   min-height: 64px;
   padding: 8px 16px;
@@ -71,5 +87,34 @@ a:hover {
           align-items: center;
   font-size: 16px;
   font-weight: 60;
+}
+
+.container > section {
+  padding: 32px 16px;
+}
+
+.container > section > article {
+  padding: 0 0 32px;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.container > footer {
+  min-height: 64px;
+  padding: 24px 16px;
+}
+
+.container > footer p {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.54);
+}
+
+.alignleft {
+  float: left;
+  margin: 0 24px 24px 0;
+  width: auto;
+  height: auto;
 }
 /*# sourceMappingURL=styles.css.map */
