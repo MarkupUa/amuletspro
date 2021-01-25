@@ -144,6 +144,12 @@ h2 {
   margin-bottom: 0;
 }
 
+.wrap footer p {
+  padding: 48px 0 0 0;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.54);
+}
+
 .main-header {
   height: 64px;
   overflow: hidden;
