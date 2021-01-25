@@ -150,6 +150,19 @@ h2 {
   color: rgba(0, 0, 0, 0.54);
 }
 
+.wrap footer ul {
+  margin: 0;
+  padding: 48px 0 0;
+  list-style: none;
+  text-align: center;
+}
+
+.wrap footer ul li {
+  display: inline-block;
+  padding: 0 8px;
+  font-size: 14px;
+}
+
 .main-header {
   height: 64px;
   overflow: hidden;
